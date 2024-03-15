@@ -1,5 +1,3 @@
-// Add.js
-
 import { useForm } from "react-hook-form";
 import { NavLink } from "react-router-dom";
 
@@ -23,14 +21,14 @@ const Add = ({ onSubmit }: { onSubmit: (data: FormData) => void }) => {
     >
       <div className="mb-4">
         <label
-          htmlFor="Name"
+          htmlFor="name"
           className="block text-sm font-medium text-gray-700"
         >
           Name:
         </label>
         <input
           type="text"
-          id="Name"
+          id="name"
           {...register("name")} // Registrando o campo "name" com react-hook-form
           className="mt-1 p-2 w-full rounded-md border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
@@ -50,14 +48,12 @@ const Add = ({ onSubmit }: { onSubmit: (data: FormData) => void }) => {
         />
       </div>
       <div>
-        <NavLink to="/">
-          <button
-            type="submit"
-            className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mb-2"
-          >
-            Submit
-          </button>
-        </NavLink>
+        <button
+          type="submit"
+          className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 rounded mb-2"
+        >
+          Submit
+        </button>
         <NavLink to="/">
           <button
             type="button"

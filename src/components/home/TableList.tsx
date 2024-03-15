@@ -7,7 +7,7 @@ type Props = {
 };
 
 const TableList: React.FC<Props> = ({ list }) => {
-  console.log("Lista:", list);
+  // console.log("Lista:", list);
 
   return (
     <div>

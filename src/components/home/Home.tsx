@@ -21,7 +21,7 @@ const Home: React.FC<HomeProps> = ({ formData }) => {
     email: data.email,
   }));
 
-  console.log("Dados do formulário:", formData); // Log para verificar os dados do formulário
+  // console.log("Dados do formulário:", formData); // Log para verificar os dados do formulário
 
   return (
     <div className="bg-zinc-800 flex items-center justify-center min-h-screen">

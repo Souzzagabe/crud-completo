@@ -29,7 +29,7 @@ const Add = ({ onSubmit }: { onSubmit: (data: FormData) => void }) => {
         <input
           type="text"
           id="name"
-          {...register("name")} // Registrando o campo "name" com react-hook-form
+          {...register("name")} 
           className="mt-1 p-2 w-full rounded-md border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
       </div>
@@ -43,7 +43,7 @@ const Add = ({ onSubmit }: { onSubmit: (data: FormData) => void }) => {
         <input
           type="text"
           id="email"
-          {...register("email")} // Registrando o campo "email" com react-hook-form
+          {...register("email")} 
           className="mt-1 p-2 w-full rounded-md border border-gray-300 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         />
       </div>

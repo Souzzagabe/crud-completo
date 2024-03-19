@@ -7,6 +7,7 @@ import Home from "./components/home/Home";
 type FormData = {
     name: string;
     email: string;
+
   };
 
   const AppRoutes = () => {
